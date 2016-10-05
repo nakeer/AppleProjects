@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F8A12741D66E052005D4966 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8A12731D66E052005D4966 /* main.m */; };
+		9F8A12771D66E052005D4966 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8A12761D66E052005D4966 /* AppDelegate.m */; };
+		9F8A127A1D66E052005D4966 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8A12791D66E052005D4966 /* ViewController.m */; };
+		9F8A127D1D66E052005D4966 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F8A127B1D66E052005D4966 /* Main.storyboard */; };
+		9F8A127F1D66E052005D4966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F8A127E1D66E052005D4966 /* Assets.xcassets */; };
+		9F8A12821D66E052005D4966 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F8A12801D66E052005D4966 /* LaunchScreen.storyboard */; };
+		9F8A128D1D66E052005D4966 /* Java2sTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8A128C1D66E052005D4966 /* Java2sTests.m */; };
+		9F8A12981D66E052005D4966 /* Java2sUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8A12971D66E052005D4966 /* Java2sUITests.m */; };
+		9F8A12BA1D67BECA005D4966 /* SampleProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8A12B91D67BECA005D4966 /* SampleProtocol.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F8A12891D66E052005D4966 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F8A12671D66E052005D4966 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F8A126E1D66E052005D4966;
+			remoteInfo = Java2s;
+		};
+		9F8A12941D66E052005D4966 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F8A12671D66E052005D4966 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F8A126E1D66E052005D4966;
+			remoteInfo = Java2s;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F8A126F1D66E052005D4966 /* Java2s.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Java2s.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F8A12731D66E052005D4966 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F8A12751D66E052005D4966 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9F8A12761D66E052005D4966 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9F8A12781D66E052005D4966 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9F8A12791D66E052005D4966 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9F8A127C1D66E052005D4966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F8A127E1D66E052005D4966 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F8A12811D66E052005D4966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F8A12831D66E052005D4966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F8A12881D66E052005D4966 /* Java2sTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Java2sTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F8A128C1D66E052005D4966 /* Java2sTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Java2sTests.m; sourceTree = "<group>"; };
+		9F8A128E1D66E052005D4966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F8A12931D66E052005D4966 /* Java2sUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Java2sUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F8A12971D66E052005D4966 /* Java2sUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Java2sUITests.m; sourceTree = "<group>"; };
+		9F8A12991D66E052005D4966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F8A12B81D67BECA005D4966 /* SampleProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleProtocol.h; sourceTree = "<group>"; };
+		9F8A12B91D67BECA005D4966 /* SampleProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleProtocol.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F8A126C1D66E052005D4966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8A12851D66E052005D4966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8A12901D66E052005D4966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F8A12661D66E052005D4966 = {
+			isa = PBXGroup;
+			children = (
+				9F8A12711D66E052005D4966 /* Java2s */,
+				9F8A128B1D66E052005D4966 /* Java2sTests */,
+				9F8A12961D66E052005D4966 /* Java2sUITests */,
+				9F8A12701D66E052005D4966 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F8A12701D66E052005D4966 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F8A126F1D66E052005D4966 /* Java2s.app */,
+				9F8A12881D66E052005D4966 /* Java2sTests.xctest */,
+				9F8A12931D66E052005D4966 /* Java2sUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F8A12711D66E052005D4966 /* Java2s */ = {
+			isa = PBXGroup;
+			children = (
+				9F8A12751D66E052005D4966 /* AppDelegate.h */,
+				9F8A12761D66E052005D4966 /* AppDelegate.m */,
+				9F8A12B81D67BECA005D4966 /* SampleProtocol.h */,
+				9F8A12B91D67BECA005D4966 /* SampleProtocol.m */,
+				9F8A12781D66E052005D4966 /* ViewController.h */,
+				9F8A12791D66E052005D4966 /* ViewController.m */,
+				9F8A127B1D66E052005D4966 /* Main.storyboard */,
+				9F8A127E1D66E052005D4966 /* Assets.xcassets */,
+				9F8A12801D66E052005D4966 /* LaunchScreen.storyboard */,
+				9F8A12831D66E052005D4966 /* Info.plist */,
+				9F8A12721D66E052005D4966 /* Supporting Files */,
+			);
+			path = Java2s;
+			sourceTree = "<group>";
+		};
+		9F8A12721D66E052005D4966 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F8A12731D66E052005D4966 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F8A128B1D66E052005D4966 /* Java2sTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F8A128C1D66E052005D4966 /* Java2sTests.m */,
+				9F8A128E1D66E052005D4966 /* Info.plist */,
+			);
+			path = Java2sTests;
+			sourceTree = "<group>";
+		};
+		9F8A12961D66E052005D4966 /* Java2sUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F8A12971D66E052005D4966 /* Java2sUITests.m */,
+				9F8A12991D66E052005D4966 /* Info.plist */,
+			);
+			path = Java2sUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F8A126E1D66E052005D4966 /* Java2s */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F8A129C1D66E052005D4966 /* Build configuration list for PBXNativeTarget "Java2s" */;
+			buildPhases = (
+				9F8A126B1D66E052005D4966 /* Sources */,
+				9F8A126C1D66E052005D4966 /* Frameworks */,
+				9F8A126D1D66E052005D4966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Java2s;
+			productName = Java2s;
+			productReference = 9F8A126F1D66E052005D4966 /* Java2s.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F8A12871D66E052005D4966 /* Java2sTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F8A129F1D66E052005D4966 /* Build configuration list for PBXNativeTarget "Java2sTests" */;
+			buildPhases = (
+				9F8A12841D66E052005D4966 /* Sources */,
+				9F8A12851D66E052005D4966 /* Frameworks */,
+				9F8A12861D66E052005D4966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F8A128A1D66E052005D4966 /* PBXTargetDependency */,
+			);
+			name = Java2sTests;
+			productName = Java2sTests;
+			productReference = 9F8A12881D66E052005D4966 /* Java2sTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F8A12921D66E052005D4966 /* Java2sUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F8A12A21D66E052005D4966 /* Build configuration list for PBXNativeTarget "Java2sUITests" */;
+			buildPhases = (
+				9F8A128F1D66E052005D4966 /* Sources */,
+				9F8A12901D66E052005D4966 /* Frameworks */,
+				9F8A12911D66E052005D4966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F8A12951D66E052005D4966 /* PBXTargetDependency */,
+			);
+			name = Java2sUITests;
+			productName = Java2sUITests;
+			productReference = 9F8A12931D66E052005D4966 /* Java2sUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F8A12671D66E052005D4966 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = nakeer;
+				TargetAttributes = {
+					9F8A126E1D66E052005D4966 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					9F8A12871D66E052005D4966 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9F8A126E1D66E052005D4966;
+					};
+					9F8A12921D66E052005D4966 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9F8A126E1D66E052005D4966;
+					};
+				};
+			};
+			buildConfigurationList = 9F8A126A1D66E052005D4966 /* Build configuration list for PBXProject "Java2s" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F8A12661D66E052005D4966;
+			productRefGroup = 9F8A12701D66E052005D4966 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F8A126E1D66E052005D4966 /* Java2s */,
+				9F8A12871D66E052005D4966 /* Java2sTests */,
+				9F8A12921D66E052005D4966 /* Java2sUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F8A126D1D66E052005D4966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8A12821D66E052005D4966 /* LaunchScreen.storyboard in Resources */,
+				9F8A127F1D66E052005D4966 /* Assets.xcassets in Resources */,
+				9F8A127D1D66E052005D4966 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8A12861D66E052005D4966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8A12911D66E052005D4966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F8A126B1D66E052005D4966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8A127A1D66E052005D4966 /* ViewController.m in Sources */,
+				9F8A12771D66E052005D4966 /* AppDelegate.m in Sources */,
+				9F8A12741D66E052005D4966 /* main.m in Sources */,
+				9F8A12BA1D67BECA005D4966 /* SampleProtocol.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8A12841D66E052005D4966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8A128D1D66E052005D4966 /* Java2sTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8A128F1D66E052005D4966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8A12981D66E052005D4966 /* Java2sUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F8A128A1D66E052005D4966 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F8A126E1D66E052005D4966 /* Java2s */;
+			targetProxy = 9F8A12891D66E052005D4966 /* PBXContainerItemProxy */;
+		};
+		9F8A12951D66E052005D4966 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F8A126E1D66E052005D4966 /* Java2s */;
+			targetProxy = 9F8A12941D66E052005D4966 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F8A127B1D66E052005D4966 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F8A127C1D66E052005D4966 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F8A12801D66E052005D4966 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F8A12811D66E052005D4966 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F8A129A1D66E052005D4966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9F8A129B1D66E052005D4966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F8A129D1D66E052005D4966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Java2s/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nakeer.Java2s;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9F8A129E1D66E052005D4966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Java2s/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nakeer.Java2s;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9F8A12A01D66E052005D4966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Java2sTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nakeer.Java2sTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Java2s.app/Java2s";
+			};
+			name = Debug;
+		};
+		9F8A12A11D66E052005D4966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Java2sTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nakeer.Java2sTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Java2s.app/Java2s";
+			};
+			name = Release;
+		};
+		9F8A12A31D66E052005D4966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Java2sUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nakeer.Java2sUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Java2s;
+			};
+			name = Debug;
+		};
+		9F8A12A41D66E052005D4966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Java2sUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nakeer.Java2sUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Java2s;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F8A126A1D66E052005D4966 /* Build configuration list for PBXProject "Java2s" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F8A129A1D66E052005D4966 /* Debug */,
+				9F8A129B1D66E052005D4966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F8A129C1D66E052005D4966 /* Build configuration list for PBXNativeTarget "Java2s" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F8A129D1D66E052005D4966 /* Debug */,
+				9F8A129E1D66E052005D4966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F8A129F1D66E052005D4966 /* Build configuration list for PBXNativeTarget "Java2sTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F8A12A01D66E052005D4966 /* Debug */,
+				9F8A12A11D66E052005D4966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F8A12A21D66E052005D4966 /* Build configuration list for PBXNativeTarget "Java2sUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F8A12A31D66E052005D4966 /* Debug */,
+				9F8A12A41D66E052005D4966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F8A12671D66E052005D4966 /* Project object */;
+}
