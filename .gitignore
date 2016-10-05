@@ -1,0 +1,12 @@
+.DS_Store
+OktaMobile/Pods
+Podfile.lock
+xcuserdata
+*.xccheckout
+*.xcuserstate
+*.xcscmblueprint
+.idea/
+target/
+build/
+*.iml
+log4j-application.log
